@@ -1,0 +1,31 @@
+def grade():
+    if averager<30:
+        print("The student failed, and got G")
+    elif averager<40:
+        print("The student failed, and got F")
+    elif averager<50:
+        print("The student passed, and got E")
+    elif averager<60:
+        print("The student passed, and got D")
+    elif averager<70:
+        print("The student passed, and got C")
+    elif averager<80:
+        print("The student passed, and got B")
+    elif averager<90:
+        print("The student passed, and got A")
+    else:
+        print("The student got A*")
+
+count = 1
+num = int(input("Enter number of students: "))
+while count <= num:
+    name = str(input(f"Enter the name of student {count}: "))
+    english = float(input("Enter English marks (out of 100): "))
+    maths = float(input("Enter Maths marks (out of 100): "))
+    science = float(input("Enter Science marks (out of 100): "))
+    total = english + maths + science
+    average = (total/300)*100
+    averager = round(average, 2)
+    print(f"{name} got {total} marks overall (out of 300) and got {averager}%")
+    grade()
+    count += 1
