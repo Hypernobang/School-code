@@ -1,0 +1,5 @@
+import random 
+num1= int(input("Enter first number: "))
+num2= int(input("Enter second number: "))
+ran= random.randrange(num1, num2)
+print (ran)
