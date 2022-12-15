@@ -1,0 +1,2 @@
+asc = input("Enter the value for which you want ASCII value: ")
+print(f"The ASCII value of '{asc}' is ", ord(asc)
