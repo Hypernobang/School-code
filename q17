@@ -1,0 +1,15 @@
+term = int(input("For how many terms do you want the sequence? "))
+cnt = 0
+t1, t2 = 0, 1
+if term == 1:
+    print(f"The fibonacci sequence till {term} is {t1}")
+elif term <= 0:
+    print("Only positive integers for terms are valid")
+else:
+    print(f"The Fibonacci sequence till {term} terms is:  ")
+    while cnt < term:
+        print(t1)
+        tn = t1 + t2
+        t1 = t2
+        t2 = tn
+        cnt += 1
