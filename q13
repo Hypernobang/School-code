@@ -1,0 +1,19 @@
+calc = str(input("Which calculation would you want to do? (Addition, Subtraction, Multiplication, Division) "))
+if calc == 'Addition' or calc == 'addition' or calc == 'ADDITION':
+    anum1 = float(input("Enter the first number: "))
+    anum2 = float(input("Enter the second number: "))
+    print(f"The sum of {anum1} and {anum2} is= {anum1 + anum2}")
+elif calc == 'Subtraction' or calc == 'subtraction' or calc == 'SUBTRACTION':
+    snum1 = float(input("Enter the first number: "))
+    snum2 = float(input("Enter the second number: "))
+    print(f"The difference between {snum1} and {snum2} is= {snum1 - snum2}")
+elif calc == 'Multiplication' or calc == 'multiplication' or calc == 'MULTIPLICATION':
+    mnum1 = float(input("Enter the first number: "))
+    mnum2 = float(input("Enter the second number: "))
+    print(f"The product of {mnum1} and {mnum2} is= {mnum1 * mnum2}")
+elif calc == 'Division' or calc == 'division' or calc == 'DIVISION':
+    dnum1 = float(input("Enter the first number: "))
+    dnum2 = float(input("Enter the second number: "))
+    print(f"The quotient {dnum1} and {dnum2} is= {dnum1 / dnum2}")
+else:
+    print("WRONG SYNTAX")
