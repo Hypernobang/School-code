@@ -1,0 +1,5 @@
+n1 = int(input("Enter the beginning of range: "))
+n2 = int(input("Enter the end of range: "))
+stp = int(input("Enter the increment of numbers in range: "))
+total = sum(range(n1, n2+1, stp))
+print(total)
