@@ -1,0 +1,3 @@
+hex = str(input("Enter hexadecimal value: "))
+dec = int(hex, 16)
+print(f"The decimal value of {hex} is= {dec}")
