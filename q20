@@ -1,0 +1,4 @@
+base = float(input("Enter the base: "))
+power = float(input("Enter the power: "))
+ans = base**power
+print(f"{base} to the power {power} is= {ans}")
