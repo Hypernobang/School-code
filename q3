@@ -1,0 +1,28 @@
+shape= str(input("Enter your desired shape: "))
+if shape=='circle':
+  rad= float(input("Enter the radius: "))
+  perimeter1= 2*3.142*rad
+  area1= 3.142*(rad**2)
+  print ("The perimeter is ", perimeter1, "and the area is ", area1)
+elif shape=='triangle':
+    s1= float(input("Enter the first side length: "))
+    s2= float(input("Enter the second side length: "))
+    s3= float(input("Enter the third side length: "))
+    base = float(input("Enter the base: "))
+    height = float(input("Enter the height: "))
+    perimeter2= s1+s2+s3
+    area2= 0.5*base*height
+    print ("The perimeter is ", perimeter2, "and the area is ", area2)
+elif shape=='square':
+    side= float(input("Enter length of one side: "))
+    perimeter3= side*4
+    area3= side**2
+    print ("The perimeter is ", perimeter3, "and the area is ", area3)
+elif shape=='rectangle':
+    length= float(input("Enter the length: "))
+    breadth= float(input("Enter the breadth: "))
+    perimeter4= 2*(length+breadth)
+    area4= length*breadth
+    print ("The perimeter is ", perimeter4, "and the area is ", area4)
+else:
+    print ("WRONG SHAPE ENTERED")
