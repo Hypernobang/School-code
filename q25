@@ -1,0 +1,5 @@
+pal = str(input("Enter the string: "))
+if pal == pal[::-1]:
+    print(f"{pal} is a palindrome= {pal[::-1]}")
+else:
+    print(f"{pal} is not a palindrome= {pal[::-1]}")
