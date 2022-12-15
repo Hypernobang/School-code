@@ -1,0 +1,6 @@
+num = int(input("Enter the number for which you want the table: "))
+cnt = 1
+while cnt <= 10:
+    prod = num * cnt
+    print(num, "x", cnt, "=", prod)
+    cnt += 1
