@@ -1,0 +1,3 @@
+num1= str(input("Enter first number as string: "))
+num2= str(input("Enter second number as string: "))
+print ("The new number is: ", num1+num2)
