@@ -1,0 +1,11 @@
+unit= str(input("Enter the unit of temperature: "))
+if unit=='fahrenheit' or unit=='Fahrenheit' or unit=='FAHRENHEIT':
+    temp1= float(input("Enter the temperature in Fahrenheit: "))
+    convtemp1= ((temp1-32)*5)/9
+    print ("The temperature from Fahrenheit, in Celsius is ", convtemp1)
+elif unit=='celsius' or unit=='Celsius' or unit=='CELSIUS':
+    temp2= float(input("Enter the temperature in Celsius: "))
+    convtemp2= (temp2*1.8)+32
+    print ("The temperature from Celsius, in Fahrenheit is ", convtemp2)
+else:
+    print ("WRONG UNIT ENTERED")
